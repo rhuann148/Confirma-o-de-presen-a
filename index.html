@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convite de Casamento</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Pinyon+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <h1>Convite de Casamento</h1>
         <p>Você está convidado para o nosso casamento!</p>
-        <p><strong>Data:</strong> 25 de dezembro de 2024</p>
-        <p><strong>Local:</strong> Parque das Flores, São Paulo</p>
+        <p><strong>Data:</strong> 15 de Março de 2025</p>
+        <p><strong>Local:</strong> Chácara Solar da Estrelas, Chácaras Paraíso</p>
         
         <h2>Presentes</h2>
         <ul id="gift-list">
-            <li>
-                <a href="https://www.amazon.com.br/Panelas-Tramontina-Antiaderente-Turim-Vermelho/dp/B0BBS9KDHT/ref=asc_df_B0BBS9KDHT/?tag=googleshopp00-20&linkCode=df0&hvadid=709874962041&hvpos=&hvnetw=g&hvrand=14454362361506335392&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101150&hvtargid=pla-1747827860105&psc=1&mcid=e548466cf7d0305cbdbb22ce5b9fbfe2&gad_source=1" target="_blank">Conjunto de Panelas</a>
-            </li>
-            <li>
-                <a href="https://www.amazon.com.br/Colcha-Queen-Bouti-Cobre-Leito/dp/B0BZQMC71L/ref=asc_df_B0BZQMC71L/?tag=googleshopp00-20&linkCode=df0&hvadid=709968341227&hvpos=&hvnetw=g&hvrand=7120053849793394562&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101150&hvtargid=pla-2297364606377&psc=1&mcid=b39e2a33acc435068b04ca8f47abc584&gad_source=1" target="_blank">Jogo de Cama</a>
-            </li>
-            <li>
-                <a href="https://linkdoproduto3.com" target="_blank">Aparelho de Jantar</a>
-            </li>
+            <li><a href="https://www.amazon.com.br/Panelas-Tramontina-Antiaderente-Turim-Vermelho/dp/B0BBS9KDHT" target="_blank">Conjunto de Panelas</a></li>
+            <li><a href="https://www.amazon.com.br/Colcha-Queen-Bouti-Cobre-Leito/dp/B0BZQMC71L" target="_blank">Jogo de Cama</a></li>
+            <li><a href="https://linkdoproduto3.com" target="_blank">Aparelho de Jantar</a></li>
         </ul>
+        <h1>
 
+            
+        </h1>
         <h2>Confirme sua Presença</h2>
         <form id="rsvp-form">
-            <input type="text" id="guest-name" placeholder="Seu nome" required>
+            <label for="guest-name">Seu nome:</label>
+            <input type="text" id="guest-name" placeholder="Digite seu nome" required>
             <button type="submit">Confirmar Presença</button>
         </form>
         
         <div id="confirmation-message" style="display: none; margin-top: 20px;"></div>
     </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
